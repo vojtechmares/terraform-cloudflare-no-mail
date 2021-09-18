@@ -1,4 +1,4 @@
-# Terrafrom Cloudflare No Mail Module
+# Terraform Cloudflare No Mail Module
 
 This module is created to help you keep your domains safe off spam lists, block lists etc.
 
