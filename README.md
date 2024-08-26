@@ -12,7 +12,7 @@ Technically, spammers still can send mails from your domain, but every good beha
 
 You only need to provide singe variable `zone_id` of the domain you wish to add these DNS records to.
 
-This module requires Cloudflare provider **2.19.2** or newer.
+This module requires Cloudflare provider **4.40.0** or newer. But is locked for major version v4 (no support for v5 when it comes out).
 
 ### Example
 
