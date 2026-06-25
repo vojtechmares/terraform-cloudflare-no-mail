@@ -5,7 +5,7 @@ variable "zone_id" {
 resource "cloudflare_record" "spf" {
   zone_id = var.zone_id
   name    = "@"
-  content = "v=spf1 -all"
+  content = "\"v=spf1 -all\""
   type    = "TXT"
 }
 
@@ -20,6 +20,6 @@ resource "cloudflare_record" "mx" {
 resource "cloudflare_record" "dmarc" {
   zone_id = var.zone_id
   name    = "_dmarc"
-  content = "v=DMARC1; p=reject;"
+  content = "\"v=DMARC1; p=reject;\""
   type    = "TXT"
 }
